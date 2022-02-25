@@ -1,0 +1,37 @@
+*Menu*/
+body{box-sizing: border-box;margin: 0px;font-family:'Times New Roman', Times, serif; align-items: center;}
+
+
+h3{color: coral; font-size: x-large; font-weight: bolder;}
+
+.menu-banner .menu{height: 50px;background-color:orangered;width: 100%;}
+.menu>a{text-decoration: none;padding: 40px;
+    line-height: 45px;color: black;}
+.menu>a:hover{color: blue;word-spacing: 3px;font-weight:bold;}
+.menu{position: fixed;z-index: 999;}
+/*End Menu*/
+
+.dk{text-align: center; padding-top: 50px;}
+.dk>h3{ font-size: larger; color: blue; }
+.dk>P{font-size: medium; color: red;}
+.dk .login{ width: 60%; margin: auto;  }
+.dk .login { display: flex; flex-direction: column;}
+.dk .login input { padding:30px ; border: 1px solid  blue;outline: none; margin-top: 10px;}
+.dk .login input:focus{border: 3px solid coral}
+.dk .login button {padding: 15px; margin-top: 20px; border: 1px solid gray; font-weight: bolder; background-color: white; color: blue;outline: none; font-size: 15px;}
+.dk .login button:hover{ background-color:yellow;color: black; transition: all 2s linear ;}
+.dk .login a {text-decoration: none;font-style: oblique;padding:5px;color: black;}
+.dk .login a>b:hover{color: royalblue;}
+
+.cc{background-color: #121801;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;height: 300px;}
+.cc .footer{float: left;;margin: 0px 60px;text-align: center;text-align: justify;}
+.cc{color: silver;}
+     /*End Footer<--*/ 
+
+.cc{background-color:rgb(156, 160, 95);text-align: center ; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;}
+.end  {text-align: center;margin: 0px;background-color: #121801;clear: both;}
+

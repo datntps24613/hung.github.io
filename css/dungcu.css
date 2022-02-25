@@ -1,0 +1,44 @@
+*Menu*/
+*{margin: 0px;box-sizing: border-box;}
+h3{color: coral; font-size: x-large; font-weight: bolder;}
+.sanpham{padding-top: 50px;}
+.menu-banner .menu{height: 50px;background-color:orangered;width: 100%;}
+.menu>a{text-decoration: none;padding: 40px;
+    line-height: 45px;color: black;}
+.menu>a:hover{color: blue;word-spacing: 3px;font-weight:bold;}
+.menu{position: fixed;}
+
+img{max-width: 100%; } 
+.i-team>p{text-align: center;}
+.i-team>.gia{color: green;}
+.mv>h2{text-align: center;color: 	#5c7a08;padding: 10px; clear: both; background-color: wheat;}
+.mv .custom{width: 20%;float: left;color: black  ;
+    background-color:red ;
+    margin: 7px;padding: 41.5px; margin-left: 40px;}
+.mv .custom:hover{box-shadow: 5px 20px red;
+    background-color: aqua;transform: scale(1.1);
+}
+
+.sanpham>h2{text-align: center;color: 	#5c7a08; padding: 10px;clear: both; background-color: wheat; }
+.sanpham .i-team{width: 14%;float: left; color: blue; height: 230px;margin: 10px 18px;
+    background-color:wheat;;padding: 41.5px;}
+.sanpham .i-team img{ width: fit-content;}
+
+.sanpham .i-team:hover{box-shadow: 5px 20px burlywood;
+    background-color: chocolate;transform: scale(1.1);
+}
+
+
+.cc{background-color: #121801;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;height: 300px;position: absolute;top: 2200px;width: 100%;margin-left: 0px;}
+.cc .footer{float: left;;margin: 0px 60px;text-align: center;text-align: justify;}
+.cc{color: silver;}
+     /*End Footer<--*/ 
+
+.cc{background-color:rgb(156, 160, 95);text-align: center ; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;}
+.end  {text-align: center;margin: 0px;background-color: #121801;clear: both;}
+
+/*End Footer<--*/  

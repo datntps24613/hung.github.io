@@ -1,0 +1,33 @@
+*Menu*/
+body{box-sizing: border-box;margin: 0px;font-family:'Times New Roman', Times, serif; align-items: center;}
+
+h3{color: coral; font-size: x-large; font-weight: bolder;}
+
+.menu-banner .menu{height: 50px;background-color:orangered;width: 100%;}
+.menu>a{text-decoration: none;padding: 40px;
+    line-height: 45px;color: black;}
+.menu>a:hover{color: blue;word-spacing: 3px;font-weight:bold;}
+.menu{position: fixed; z-index: 999;}
+/*End Menu*/
+
+h3{text-align: center;}
+.formdangnhap{width: 800px;margin: 0px auto; padding: 100px;}
+form{display: flex;flex-direction: column;}
+input{margin: 20px 0px; outline: none;padding: 10px; border: 1px solid silver; border-radius: 3px;}
+button{margin: 20px 0px; outline: none;padding: 10px;border: 1px solid silver; outline: none;background-color:white;color: rgb(69, 151, 245);font-weight: bold;font-size: 15px;}
+button:hover{
+    background-color: rgb(36, 43, 43);color: white;transition: all 2s linear;}
+    input:focus{border: 3px solid goldenrod;}
+
+    .cc{background-color: #121801;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;height: 300px;}
+    .cc .footer{float: left;;margin: 0px 60px;text-align: center;text-align: justify;}
+    .cc{color: silver;}
+         /*End Footer<--*/ 
+    
+    .cc{background-color:rgb(156, 160, 95);text-align: center ; 
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;}
+    .end  {text-align: center;margin: 0px;background-color: #121801;clear: both;}
+    

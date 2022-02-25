@@ -1,0 +1,72 @@
+body{box-sizing: border-box;margin: 0px;font-family:'Times New Roman', Times, serif; align-items: center;}
+/*-->Header<--*/
+/*Menu*/
+h3{color: coral; font-size: x-large; font-weight: bolder;}
+
+.menu-banner .menu{height: 50px;background-color:orangered;width: 100%;}
+.menu>a{text-decoration: none;padding: 40px;
+    line-height: 45px;color: black;}
+.menu>a:hover{color: blue;word-spacing: 3px;font-weight:bold;}
+.menu{position: fixed;}
+/*End Menu*/
+/*-->End Header<--*/
+/*-->Content<--*/
+/* Định dạng cho sản phẩm */
+
+
+.sanpham>h2{text-align: center;color: 	#5c7a08; padding: 20px;clear: both; background-color: burlywood; }
+.sanpham .i-team{width: 16%;float: left; color: blue;
+    background-color:wheat ;margin: 10px;padding: 41.5px;margin-left: 20px;}
+/* Thay đổi màu sản phẩm khi di chuột qua */
+.sanpham .i-team:hover{box-shadow: 5px 20px burlywood;
+    background-color: chocolate;transform: scale(1.1);
+}
+    /*-----*/
+img{max-width: 100%;} 
+.i-team>p{text-align: center;}
+.i-team>.gia{color: green;}
+.mv>h2{text-align: center;color: 	#5c7a08;padding: 10px; clear: both; background-color: burlywood;}
+.mv .custom{width: 20%;float: left;color: black  ;
+    background-color:wheat ;
+    margin: 7px;padding: 41.5px; margin-left: 40px;}
+.mv .custom:hover{box-shadow: 5px 20px burlywood;
+    background-color: chocolate;transform: scale(1.1);
+
+}
+ .friday{max-width: 100%;}
+.custom>p{text-align: center;}
+.custom>.gia{color: yellow;}
+
+/*Định dạng cho phần tin tức*/
+.tintuc .ss>h2{text-align: center;color: #5c7a08;padding: 10px; clear: both; background-color: burlywood}
+.friday,.top5,.happy{width: 30%;text-align: center;
+    padding: 5px;margin: 10px;
+    height: 50%;display: inline-block;}
+/* Thay đổi màu khi di chuột qua */
+    .friday:hover{box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, 
+        rgba(188, 29, 194, 0.65) 0px 4px 6px -1px,
+         rgba(114, 2, 136, 0.08) 0px 1px 0px inset; transform: scale(1.1);
+        }
+    .top5:hover{box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, 
+        rgba(188, 29, 194, 0.65) 0px 4px 6px -1px,
+         rgba(255, 255, 255, 0.08) 0px 1px 0px inset; transform: scale(1.1);
+        }
+    .happy:hover{box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, 
+        rgba(188, 29, 194, 0.65) 0px 4px 6px -1px,
+         rgba(255, 255, 255, 0.08) 0px 1px 0px inset; transform: scale(1.1);
+        }
+/*-->End Content<--*/
+/*-->Footer<--*/
+.cc{background-color: #121801;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;height: 300px;}
+.cc .footer{float: left;;margin: 0px 60px;text-align: center;text-align: justify;}
+.cc{color: silver;}
+     /*End Footer<--*/ 
+
+.cc{background-color:rgb(156, 160, 95);text-align: center ; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;}
+.end  {text-align: center;margin: 0px;background-color: #121801;clear: both;}
+
+/*End Footer<--*/  

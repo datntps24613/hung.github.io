@@ -1,0 +1,63 @@
+body{box-sizing: border-box;margin: 0px;font-family:'Times New Roman', Times, serif; align-items: center;}
+
+html{scroll-behavior: smooth;}
+
+/*-->Header<--*/
+/*Menu*/
+h3{color: coral; font-size: x-large; font-weight: bolder;}
+
+
+.menu-banner .menu{height: 50px;background-color:orangered;width: 100%;}
+.menu>a{text-decoration: none;padding: 40px;
+    line-height: 45px;color: black;}
+.menu>a:hover{color: blue;word-spacing: 3px;font-weight:bold;}
+.menu{position: fixed; z-index: 999;}
+
+.main{padding: 50px;text-align: center;}
+.main .img-iteam .img img{max-width: 100%; width: 400px; height: 300px;border: solid goldenrod;}
+.main .img-iteams .img img{max-width: 100%;width:   400px; height: 300px;border: solid goldenrod}
+.main .img-iteam {display: flex; }
+.main .img-iteams{display: flex}
+.main .img-iteams .img{margin: 10px;}
+.main .img-iteam .img{margin: 10px;}
+.main .img-iteam .img{position: relative;}
+.img .mua{position: absolute;bottom: 100px;left: 160px;}
+.img .mua{text-decoration: none;color:chocolate;border: 4px solid chocolate;background-color: #FAEEE7; font-size: 25px;font-weight: bold;padding: 10px;}
+.img .mua:hover{border: 4px solid rgb(9, 175, 252);background-color: cornsilk;transform: scale(1.1);}
+.main .img-iteams .img{position: relative;}
+.main .img-iteams .img{position: relative;}
+.img .muas{position: absolute;bottom: 100px;left: 160px;}
+.img .muas{text-decoration: none ;color: chocolate;border: 4px solid chocolate;background-color: #FAEEE7; font-size: 25px;font-weight: bold;padding: 10px;}
+.img .muas:hover{border: 4px solid rgb(9, 175, 252);background-color: cornsilk;transform: scale(1.1);}
+.content{margin-left: 55px;}
+.content{margin-right: 55px;}
+
+
+
+/*Tạo nút back top*/
+ .backtop{
+    width: 50px;height: 50px;
+    background-color: rgb(248, 96, 41);
+    display: flex;justify-content: center;
+    border-radius: 50%;align-items: center;
+    position: fixed;
+    bottom: 50px;right:20px;
+}
+/* Thay đổi màu khi di chuột qua */
+.backtop:hover{box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, 
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+     rgba(255, 255, 255, 0.08) 0px 1px 0px inset;}
+     .end  {text-align: center;margin: 0px;background-color: #121801;clear: both;}
+
+/*-->Footer<--*/
+.cc{background-color: #121801;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;height: 300px;width: 100%;}
+.cc .footer{float: left;;margin: 0px 60px;text-align: center;text-align: justify;}
+.cc{color: silver;}
+     /*End Footer<--*/ 
+
+.cc{background-color:rgb(156, 160, 95);text-align: center ; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;}
+.cc{color: silver}
